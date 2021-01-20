@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Side Navigation bar Using HTML and CSS</title>
+	<link rel="icon" type="image/png" href="profile.png" sizes="32x32" />
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper hover_collapse">
+	<div class="top_navbar">
+		<div class="logo" onclick="showHideDiv('logo')">Coding<span>Sidebar</span></div>
+		<div class="menu">
+			<div class="hamburger">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div class="profile_wrap">
+				<div class="profile">
+					<img src="profile.png" alt="profile_pic">
+					<span class="name">Hnin Hnin</span>
+					<span class="icon">
+						<i class="fas fa-angle-down"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar">
+		<div class="sidebar_inner">
+		<ul>
+			<li class="maintain">
+				<a href="#maintain" onclick="showHideDiv('maintain')">
+					<span class="icon"><i class="fas fa-home"></i></span>
+					<span class="text">Maintain</span>
+				</a>
+			</li>
+			<li class="transaction">
+				<a href="#transaction" onclick="showHideDiv('transaction')">
+					<span class="icon"><i class="fas fa-hand-holding-usd"></i></span>
+					<span class="text">Transaction</span>
+				</a>
+			</li>
+			<li class="system">
+				<a href="#system" onclick="showHideDiv('system')">
+					<span class="icon"><i class="fas fa-cog"></i></span>
+					<span class="text">System</span>
+				</a>
+			</li>
+			<li class="helping">
+				<a href="#helping" onclick="showHideDiv('helping')">
+					<span class="icon"><i class="fas fa-tools"></i></span>
+					<span class="text">Helping</span>
+				</a>
+			</li>
+			<li class="report" onclick="showHideDiv('report')">
+				<a href="#report">
+					<span class="icon"><i class="fas fa-tasks"></i></span>
+					<span class="text">Report</span>
+				</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+
+	<div class="main_container">
+		<div class="container">
+			<div id="maintain">
+				<div class="content">
+					<h4>Maintain</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Molestiae praesentium, labore recusandae aperiam asperiores expedita explicabo possimus minima doloribus consectetur voluptates illo, nobis assumenda perspiciatis quia eveniet illum sequi. Excepturi soluta atque necessitatibus! Eum asperiores quidem voluptas at quos consequuntur illo quibusdam, esse, ab commodi soluta alias, excepturi placeat incidunt vel animi inventore fuga voluptatem libero blanditiis aliquam. Laboriosam in itaque iste magni nemo fuga maxime omnis corporis dolor dolorum! A assumenda distinctio, necessitatibus quasi tenetur non fugit ducimus cum est. Hic, quisquam, facere? Quos tempore incidunt aliquam veniam, quo doloremque, explicabo architecto ex perferendis vero maxime, non!
+					</p>
+				</div>
+			</div>
+
+			<div id="transaction">
+				<div class="content">
+					<h4>Transaction</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Molestiae praesentium, labore recusandae aperiam asperiores expedita explicabo possimus minima doloribus consectetur voluptates illo, nobis assumenda perspiciatis quia eveniet illum sequi. Excepturi soluta atque necessitatibus! Eum asperiores quidem voluptas at quos consequuntur illo quibusdam, esse, ab commodi soluta alias, excepturi placeat incidunt vel animi inventore fuga voluptatem libero blanditiis aliquam. Laboriosam in itaque iste magni nemo fuga maxime omnis corporis dolor dolorum! A assumenda distinctio, necessitatibus quasi tenetur non fugit ducimus cum est. Hic, quisquam, facere? Quos tempore incidunt aliquam veniam, quo doloremque, explicabo architecto ex perferendis vero maxime, non!
+					</p>
+				</div>
+			</div>	
+
+			<div id="system">
+				<div class="content">
+					<h4>System</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Molestiae praesentium, labore recusandae aperiam asperiores expedita explicabo possimus minima doloribus consectetur voluptates illo, nobis assumenda perspiciatis quia eveniet illum sequi. Excepturi soluta atque necessitatibus! Eum asperiores quidem voluptas at quos consequuntur illo quibusdam, esse, ab commodi soluta alias, excepturi placeat incidunt vel animi inventore fuga voluptatem libero blanditiis aliquam. Laboriosam in itaque iste magni nemo fuga maxime omnis corporis dolor dolorum! A assumenda distinctio, necessitatibus quasi tenetur non fugit ducimus cum est. Hic, quisquam, facere? Quos tempore incidunt aliquam veniam, quo doloremque, explicabo architecto ex perferendis vero maxime, non!
+					</p>
+				</div>
+			</div>
+
+			<div id="helping">
+				<div class="content">
+					<h4>Helping</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Molestiae praesentium, labore recusandae aperiam asperiores expedita explicabo possimus minima doloribus consectetur voluptates illo, nobis assumenda perspiciatis quia eveniet illum sequi. Excepturi soluta atque necessitatibus! Eum asperiores quidem voluptas at quos consequuntur illo quibusdam, esse, ab commodi soluta alias, excepturi placeat incidunt vel animi inventore fuga voluptatem libero blanditiis aliquam. Laboriosam in itaque iste magni nemo fuga maxime omnis corporis dolor dolorum! A assumenda distinctio, necessitatibus quasi tenetur non fugit ducimus cum est. Hic, quisquam, facere? Quos tempore incidunt aliquam veniam, quo doloremque, explicabo architecto ex perferendis vero maxime, non!
+					</p>
+				</div>
+			</div>
+			
+			<div id="report" >
+				<div class="content">
+					<h4>Report</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Molestiae praesentium, labore recusandae aperiam asperiores expedita explicabo possimus minima doloribus consectetur voluptates illo, nobis assumenda perspiciatis quia eveniet illum sequi. Excepturi soluta atque necessitatibus! Eum asperiores quidem voluptas at quos consequuntur illo quibusdam, esse, ab commodi soluta alias, excepturi placeat incidunt vel animi inventore fuga voluptatem libero blanditiis aliquam. Laboriosam in itaque iste magni nemo fuga maxime omnis corporis dolor dolorum! A assumenda distinctio, necessitatibus quasi tenetur non fugit ducimus cum est. Hic, quisquam, facere? Quos tempore incidunt aliquam veniam, quo doloremque, explicabo architecto ex perferendis vero maxime, non!
+					</p>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
