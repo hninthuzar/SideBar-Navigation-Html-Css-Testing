@@ -39,7 +39,7 @@ x.addListener(myFunction) // add listener function on screen width changes
 
 myFunction({});
 
-// ----------------------------- End code For Side Bar ----------------------------------------------
+// ----------------------------- End code For Side Bar HTZ----------------------------------------------
 // ----------------------------- Start code For Two Way Element Show/Hide --------------------------- 
 
 // var maintain = document.querySelector(".maintain");
@@ -113,7 +113,7 @@ myFunction({});
 //    	report.style.display = "block";
 // })
 
-///  upper block use event listener to show/hide div 
+///  upper block use event listener to show/hide div HTZ 
 
 function showHideDiv(val){
 	switch (val) {
